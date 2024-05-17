@@ -15,7 +15,22 @@ body{
     width: 50%;
     height: 100vh;
     color: whitesmoke;
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100vh;
+    padding: 20px;
 }
+
+#myvideo{
+    width: 100vh;
+    height: 100vh;
+    object-fit: contain;
+    position: fixed;
+}
+
+
 
 img{
     width: 250px;
