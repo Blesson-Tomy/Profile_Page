@@ -15,19 +15,34 @@ body{
     width: 50%;
     height: 100vh;
     color: whitesmoke;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
-    width: 100vh;
+    width: 50%;
     padding: 20px;
+    top: 10%;
+    left: 25%;
 }
 
 #myvideo{
-    width: 100vh;
-    height: 100vh;
+    width: 50%;
+    height: 50%;
     object-fit: contain;
-    position: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+video{
+    object-fit:cover;
+
+    overflow:hidden;
+    width: 110%;
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+    overflow: hidden;
+
 }
 
 
