@@ -1,5 +1,9 @@
 body{
-    background-color: black;
+    background-color: rgb(251, 251, 251);
+    background-image: url('https://img.freepik.com/free-vector/gradient-technological-background_23-2148884155.jpg?w=1800&t=st=1717227795~exp=1717228395~hmac=bf1b410520ef27abc69811328bbee7b1bab9a24db4e7eff91362a2d436824e3a');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .body{
@@ -8,9 +12,8 @@ body{
     margin: auto;
     text-align: center;
     align-items: center;
-    height: 100vh;
-    color: whitesmoke;
-    color: #f1f1f1;
+    
+    color: rgb(255, 255, 255);
     font-size: larger;
     font-weight: bold;
     
@@ -30,14 +33,20 @@ img{
     border: 1px solid #0dcaf0;
     padding: 10px;
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.382);
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 5px;
     margin: 10px;
+    
+}
+
+.button:hover{
+    box-shadow: 0 0 10px 0 #0dcaf0;
+  transition: all 50ms ease-in-out;
 }
 
 a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 i{
@@ -55,4 +64,6 @@ h1{
         padding: 20px;
     }
 }
+
+
 
