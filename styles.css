@@ -13,7 +13,7 @@ body{
     margin: auto;
     text-align: center;
     align-items: center;
-    
+    width: 33%;
     color: rgb(255, 255, 255);
     font-size: larger;
     font-weight: bold;
@@ -38,6 +38,18 @@ img{
     border-radius: 5px;
     margin: 10px;
     
+}
+.col1{
+    width: 33%;
+    align-items: center;   
+    color: white; 
+    margin: auto;
+    padding-left: 50px;
+    
+}
+.col3{
+    width: 33%;
+
 }
 
 .button:hover{
@@ -64,6 +76,11 @@ h1{
         width: 100%;
         padding: 20px;
     }
+}
+
+.col{
+    display: flex;
+    flex-direction: row;
 }
 
 
