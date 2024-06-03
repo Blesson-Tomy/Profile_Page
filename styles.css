@@ -33,24 +33,28 @@ img{
 .button{
     border: 1px solid #0dcaf0;
     padding: 10px;
-    width: 400px;
+    width: 300px;
     background-color: rgba(0, 0, 0, 0);
     border-radius: 5px;
     margin: 10px;
     
 }
+/*
 .col1{
     width: 33%;
     align-items: center;   
     color: white; 
     margin: auto;
     padding-left: 50px;
+    display: flex;
+    flex-direction: row;
     
 }
 .col3{
     width: 33%;
 
 }
+*/
 
 .button:hover{
     box-shadow: 0 0 10px 0 #0dcaf0;
@@ -76,12 +80,12 @@ h1{
         width: 100%;
         padding: 20px;
     }
+    .col1{
+        display: none;
+    }
+    .col3{
+        display: none;
+    }
 }
-
-.col{
-    display: flex;
-    flex-direction: row;
-}
-
 
 
