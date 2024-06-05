@@ -88,4 +88,12 @@ h1{
     }
 }
 
+h6{
+    color: aqua;
+    text-align: center;
+    padding: 1px;
+    color: white;
+    font-size: 1rem;
+}
+
 
