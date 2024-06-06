@@ -13,7 +13,6 @@ body{
     margin: auto;
     text-align: center;
     align-items: center;
-    width: 33%;
     color: rgb(255, 255, 255);
     font-size: larger;
     font-weight: bold;
@@ -21,13 +20,19 @@ body{
 }
 
 img{
-    width: 125px;
-    height: 125px;
+    width: 175px;
+    height: 175px;
     border-radius: 50%;
     margin-top: 20px;
     image-rendering: pixelated;
     object-fit: cover; 
     border: 1px solid #0dcaf0;
+}
+
+img:hover
+{
+    box-shadow: 0 0 10px 0 #0dcaf0;
+  transition: all 50ms ease-in-out;
 }
 
 .button{
@@ -39,22 +44,6 @@ img{
     margin: 10px;
     
 }
-/*
-.col1{
-    width: 33%;
-    align-items: center;   
-    color: white; 
-    margin: auto;
-    padding-left: 50px;
-    display: flex;
-    flex-direction: row;
-    
-}
-.col3{
-    width: 33%;
-
-}
-*/
 
 .button:hover{
     box-shadow: 0 0 10px 0 #0dcaf0;
@@ -75,18 +64,7 @@ h1{
     margin-top: 20px;
 }
 
-@media (max-width: 678px) {
-    .body{
-        width: 100%;
-        padding: 20px;
-    }
-    .col1{
-        display: none;
-    }
-    .col3{
-        display: none;
-    }
-}
+
 
 h6{
     color: aqua;
@@ -94,6 +72,11 @@ h6{
     padding: 1px;
     color: white;
     font-size: 1rem;
+}
+
+.footer{
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 
