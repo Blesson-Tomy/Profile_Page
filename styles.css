@@ -4,6 +4,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
     
 }
 
@@ -17,6 +18,21 @@ body{
     font-size: larger;
     font-weight: bold;
     
+}
+nav{
+    background-color: rgba(6, 16, 27, 0.532);
+    
+}
+
+.head{
+    
+    height: 48px;
+    width: 60px;
+    border: 0px ;
+    margin-left: 8px;
+}
+.head:hover{
+    box-shadow: 0 0 0 0;
 }
 
 img{
