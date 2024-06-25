@@ -9,3 +9,5 @@ This site also has a google tag embedded to analyse the traffic so that I can le
 Do give feedback if you have any!
 
 Check it out: https://blesson-tomy.github.io/Profile_Page/
+
+OR https://profile.blessonktomy.tech
