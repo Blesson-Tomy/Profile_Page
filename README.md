@@ -4,7 +4,7 @@ As a developer and a writer, I have numerous profiles. To make these profiles ea
 
 Technologies Used: HTML, CSS, Google Analytics
 
-This site also has a google tag embedded to analyse the traffic so that I can learn and improve the site. 
+This site also has google tag embedded as part of google analytivs to monitor the traffic and learn about the site's engagement. 
 
 Do give feedback if you have any!
 
