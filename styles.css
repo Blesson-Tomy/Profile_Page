@@ -49,16 +49,24 @@ nav{
 }
 
 img{
-    width: 175px;
-    height: 175px;
-    border-radius: 50%;
+   
+    
     margin-top: 20px;
     image-rendering: pixelated;
     object-fit: cover; 
-    border: 1px solid #0dcaf0;
+    
 }
 
-img:hover
+img.new{
+    border-radius: 50%;
+    border: 1px solid #0dcaf0;
+    width: 175px;
+    height: 175px;
+}
+
+
+
+img.new:hover
 {
     box-shadow: 0 0 10px 0 #0dcaf0;
   transition: all 50ms ease-in-out;
