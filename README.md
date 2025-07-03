@@ -10,4 +10,4 @@ Do give feedback if you have any!
 
 Check it out: https://blesson-tomy.github.io/Profile_Page/
 
-OR https://profile.blessonktomy.tech
+OR https://profile.blessonktomy.me
